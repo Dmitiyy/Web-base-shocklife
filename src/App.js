@@ -1,9 +1,12 @@
 import React from 'react';
+import Nav from './components/nav/';
+import Header from './components/header/';
 
 function App() {
   return (
     <>
-      <h1>This is my react app</h1>
+      <Nav/>
+      <Header/>
     </>
   );
 }

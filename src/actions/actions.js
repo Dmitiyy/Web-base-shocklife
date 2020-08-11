@@ -3,4 +3,9 @@ const toNum = () => {
         type: 'NUM'
     }
 }
-export {toNum};
+const toColor = () => {
+    return {
+        type: 'COL'
+    }
+}
+export {toNum, toColor};
