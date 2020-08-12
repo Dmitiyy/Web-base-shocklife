@@ -1,0 +1,58 @@
+.aboutUs {
+    width: 1180px;
+    height: 641px;
+    background: transparent;
+    margin: 0 auto;
+    margin-top: 240px;
+    margin-bottom: 240px;
+}
+.wrap_title{
+    margin-bottom: 110px;
+    color: black;
+    
+    font-size: 40px;
+}
+.wrap_title h2 {
+    font-family: "Roboto Bold";
+}
+.stick {
+    width: 100px;
+    height: 7px;
+    background: black;
+    margin-top: 5px;
+}
+.wrap_content {
+    width: 100%;
+    position: relative;
+}
+.img_about {
+    width: 514px;
+    height: 363px;
+}
+.block_border1 {
+    width: 70px;
+    height: 70px;
+    border-left: 7px solid black;
+    border-top:7px solid black ;
+}
+.block_border2 {
+    width: 70px;
+    height: 70px;
+    border-right: 7px solid black;
+    border-bottom:7px solid black;
+    text-align: right;
+    position: absolute;
+    right: 0;
+    margin-top: -40px;
+}
+.block_text{
+    width: 536px;
+    font-size: 26px;
+}
+.inner_about {
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -35px;
+    margin-left: 40px;
+}

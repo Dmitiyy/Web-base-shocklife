@@ -1,11 +1,6 @@
-const toNum = () => {
+const toActive = () => {
     return {
-        type: 'NUM'
+        type: 'ACT',
     }
 }
-const toColor = () => {
-    return {
-        type: 'COL'
-    }
-}
-export {toNum, toColor};
+export {toActive};

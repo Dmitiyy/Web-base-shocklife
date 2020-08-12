@@ -1,12 +1,11 @@
 const initialState = {
-    col: true
+    col: false
 }
 const reducer = (state = initialState, action) => {
     switch (action.type) {
-        case 'COL':
+        case 'ACT':
             return {
-                ...state,
-                col: !initialState.col
+                col: !state.col
             }
         default: 
             return state;

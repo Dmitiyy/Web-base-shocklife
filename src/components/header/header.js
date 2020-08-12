@@ -15,7 +15,7 @@ class Header extends React.Component {
     render(){
         const Headerblock = styled.header`
             width: 100%;
-            height: 700px;
+            height: 1000px;
             background-image:url(${bg});
             background-position: center;
         `;

@@ -8,7 +8,7 @@ export default class Nav extends React.Component {
             <div className="nav">
                 <div className="wrapp_inner_nav">
                     <img className="img_logo" alt="" src={logo}/>
-                    <h3>+38(xxx)-xxx-xx-xx</h3>
+                    <h3>SHOCKLIFE</h3>
                 </div>
             </div>
         )
