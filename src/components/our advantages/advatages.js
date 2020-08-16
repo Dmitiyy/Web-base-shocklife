@@ -4,6 +4,7 @@ import brand from './megaphone.png';
 import fast from './delivery.png';
 import safety from './safety.png';
 import AOS from 'aos';
+import './media.css';
 
 export default class Advantages extends React.Component{
     componentDidMount(){

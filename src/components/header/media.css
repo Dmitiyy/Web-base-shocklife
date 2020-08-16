@@ -1,0 +1,36 @@
+@media (max-width: 596px) and (min-width:419px){
+    .block_filter {
+        height: 700px;
+    }
+    .wrapp_header h1 {
+        font-size: 70px;
+    }
+    .wrapp_header h1 span {
+        font-size: 70px;
+    }
+    .wrapp_header {
+        height: 270px;
+    }
+    header {
+        margin-bottom: -155px;
+    }
+}
+
+@media (max-width: 418px){
+    .block_filter {
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrapp_header h1 {
+        font-size: 50px;
+    }
+    .wrapp_header h1 span {
+        font-size: 50px;
+    }
+    .wrapp_header {
+        height: 220px;
+        margin-top: 0px;
+    }
+}

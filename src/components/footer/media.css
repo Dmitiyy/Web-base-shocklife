@@ -1,0 +1,11 @@
+@media (max-width: 376px) {
+    .title_footer {
+        display:  none;
+    }
+    .logo_footer {
+        margin: 0 auto;
+    }
+    .wrap_footer {
+        width: 100%;
+    }
+}

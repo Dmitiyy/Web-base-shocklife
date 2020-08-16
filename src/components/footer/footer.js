@@ -1,7 +1,7 @@
 import React from 'react';
 import './footer.css';
 import logo from './logo.png';
-
+import './media.css';
 export default class Footer extends React.Component {
     render() {
         return (

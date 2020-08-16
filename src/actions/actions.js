@@ -1,6 +1,24 @@
-const toActive = () => {
+const nameChange = (e) => {
     return {
-        type: 'ACT',
+        type: 'HAN',
+        payload: e.target.value
     }
 }
-export {toActive};
+const emailChange = (e) => {
+    return {
+        type: 'HAE',
+        payload: e.target.value
+    }
+}
+const phoneChange = (e) => {
+    return {
+        type: 'HAP',
+        payload: e.target.value
+    }
+}
+const clear = () => {
+    return {
+        type: 'CLE'
+    }
+}
+export {nameChange, emailChange, phoneChange, clear};

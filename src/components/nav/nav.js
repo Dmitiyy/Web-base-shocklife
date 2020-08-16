@@ -1,6 +1,7 @@
 import React from 'react';
 import './nav.css';
 import logo from './logo.png';
+import './media.css';
 
 export default class Nav extends React.Component {
     render() {

@@ -4,6 +4,8 @@ import styled from 'styled-components';
 import bg from './main-bg.jpg';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import './media.css';
+import {Link} from 'react-scroll';
 
 class Header extends React.Component {
     componentDidMount(){
@@ -18,6 +20,12 @@ class Header extends React.Component {
             height: 1000px;
             background-image:url(${bg});
             background-position: center;
+            @media (max-width:596px) and (min-width: 419px) {
+                height: 700px;
+            }
+            @media (max-width:418px) {
+                height: 500px;
+            }
         `;
 
         return(
@@ -29,7 +37,9 @@ class Header extends React.Component {
                             <span data-aos="fade-down"
                             data-aos-delay="150">SHOCKLIFE</span>
                         </h1>
-                        <button>JOIN US</button>
+                        <Link smooth={true} to='join'>
+                            <button>JOIN US</button>
+                        </Link>
                     </div>
                 </div>
             </Headerblock>

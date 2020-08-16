@@ -2,6 +2,7 @@ import React from 'react';
 import team from './team.jpg';
 import './aboutUs.css';
 import AOS from 'aos';
+import './media.css';
 
 class AboutUs extends React.Component {
     componentDidMount(){
